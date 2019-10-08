@@ -1,4 +1,4 @@
 # AzureAnimated
 Animated gifs for Azure How-tos
 
-Work in progress right now :)
+Hosted here: https://aka.ms/azureanimated
