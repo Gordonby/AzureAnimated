@@ -20,10 +20,10 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    - uses: actions/upload-artifact@master
-      with:
-        name: my-artifact
-        path: path/to/artifact
+    #- uses: actions/upload-artifact@master
+    #  with:
+    #    name: my-artifact
+    #    path: path/to/artifact
     
     # deploy web app using Azure credentials
     - uses: azure/webapps-deploy@v1
