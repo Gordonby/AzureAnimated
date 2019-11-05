@@ -10,7 +10,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run a one-line script
-      run: echo Hello, world!
+      run: echo Hello, snitches!
     
     # checkout the repo
     - name: 'Checkout Github Action' 
@@ -20,8 +20,6 @@ jobs:
       with:
         creds: ${{ secrets.AZURE_CREDENTIALS }}
 
-    - run: mkdir -p ${{ github.workspace }}:/srv/jekyll
-    - run: echo hello > path/to/artifact/world.txt
     - uses: actions/upload-artifact@master
       with:
         name: my-artifact
