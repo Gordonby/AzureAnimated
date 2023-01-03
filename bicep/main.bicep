@@ -7,7 +7,7 @@ module webApps 'webapps.bicep' = {
   name: '${deployment().name}-webapps'
   params: {
     nameseed: nameseed
-    webAppName: 'azure-animated'
+    webAppName: 'animated'
     location: location
     uniqueSuffix: uniqueSuffix
   }
